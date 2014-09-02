@@ -1,0 +1,514 @@
+body  {
+	width:1170px;
+	margin:0 auto 10px;
+	font-family: Helvetica, sans-serif;
+	color:#5F5F5F;
+	background: white;
+}
+
+::selection {
+	background: #a8a8a8;
+	color:#fff;
+}
+
+a {
+	font-family: Helvetica, sans-serif;
+	color:#5F5F5F;
+}
+
+h1 {
+	font-size: 5em;
+	letter-spacing: -6px;
+	margin:0 0 -22px 0;
+}
+
+h2 {
+	letter-spacing: 5px;
+	font-size: 2em;
+	border-bottom: 3px dotted;
+	width:381px;
+}
+
+/*.container {
+	width:1170px;
+	margin:0 auto;
+	overflow: hidden;
+}*/
+
+#main-java {
+	opacity: 0;
+}
+
+
+#errors{
+	margin:20px 0 20px 0;
+	color:#ff0000;
+}
+
+.square {
+	position:relative;
+	display: inline-block;
+	height:175px;
+	width:175px;
+	border:40px solid #A8A8A8;
+	border-radius: 70px;
+	margin:0 10px;
+}
+
+p.label {
+	display: none;
+}
+
+.square:hover {
+	border:40px solid #fff;
+}
+
+.square:hover > div > p.label {
+	display: block;
+}
+
+#one p, #four p {
+	padding:0 0 0 63px;
+}
+
+#two p {
+	padding:0 0 0 54px;
+}
+
+#three p {
+	padding:0 0 0 61px;
+}
+
+/*.top {
+	margin-top:100px;
+}
+
+.bot {
+	margin-top: 200px;
+}*/
+
+#one {
+	top:200px;
+}
+
+#two {
+	top:100px;
+}
+
+#three {
+	top:200px;
+}
+
+#four {
+	top:100px;
+}
+
+.square > div > i {
+	text-align: center;
+	padding:50px 0 0 46px;
+	/*color:#B37474;*/
+	color:#5F5F5F;
+	font-size:5em;
+}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-About Page-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+#about {
+	/*opacity: 0;*/
+	margin:50px 0 0 0;
+	width:405px;
+	text-align: justify;
+}
+
+#about-return {
+	/*opacity: 0;
+	margin:40px 0 0 450px;*/
+}
+
+.return-button > i {
+	font-size: 5em;
+	padding:0;
+}
+
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-Contact Page-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+
+div#contact {
+	margin: 50px 0 0 3px;
+}
+
+
+
+input.text {
+	width:365px;
+	height:25px;
+	margin-bottom: 10px;
+	border:none;
+	border-radius: 2px;
+	background: #5f5f5f;
+	color:white;
+	padding:3px 10px;
+	outline: none;
+}
+
+
+textarea.text {
+	width:365px;
+	min-width: 365px;
+	max-width: 365px;
+	height: 100px;
+	min-height: 100px;
+	max-height: 100px;
+	border-radius: 3px;
+	outline: none;
+	padding:10px;
+	background: #5f5f5f;
+	color:#fff;
+	font-family: inherit;
+}
+
+#submit {
+	display: block;
+	border:none;
+	height:26px;
+	width:100px;
+	background: #5f5f5f;
+	color:#fff;
+	margin: 10px 0 0 0;
+	outline:none;
+}
+
+#contact-return {
+	display: block;
+	margin:40px 0 0 0;
+}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-Profile Page-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+#profile {
+	height:1140px;
+	overflow: hidden;
+}
+#skills {
+	height:500px;
+	width:100%;
+	background: url('../img/profile.png') no-repeat center;
+}
+
+#frontend {
+	float:left;
+	margin:55px 0 0 150px;
+}
+
+#backend {
+	float:right;
+	margin:200px 180px 0 0;
+}
+
+#frontend > ul > li, #backend > li {
+	font-size: 2em;
+}
+
+#history {
+	margin:25px 0 0 250px;
+}
+
+.tab {
+	width:106px;
+	height:20px;
+	padding:6px 0 0 0;
+	background: gray;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+
+.outer-details {
+	height:100px;
+	width:600px;
+	background: #F1F1F1;
+	border-top: 2px solid gray;
+	padding:4px 0 0 11px;
+	margin:0 0 20px 0;
+}
+
+.outer-details > h2 {
+	font-size: 22px;
+	border:none;
+	width:100%;
+	letter-spacing: 0px;
+}
+
+.company {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.inner-details {
+	margin:5px 0 0 0;
+	font-size: 17px;
+}
+
+#profile-return {
+	display: inline-block;
+	margin:0 0 20px 0;
+}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-Portfolio Page-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+#portfolio {
+	margin:80px 0 0 0;
+	text-align: center;
+}
+
+#portfolio > a {
+	margin:20px;
+}
+
+#portfolio > a {
+	width:400px;
+	height:200px;
+	display: inline-block;
+	margin:20px;
+}
+
+#portfolio-return {
+	display: block;
+	margin:20px 0 0 0;
+}
+
+@media (max-width: 1048px) and (min-width: 641px) {
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-Home Mobile-_-_-_-_-_-_-_-_-_-_-_-_-*/
+	body{
+		width:770px;
+	}
+
+	#main-java {
+		opacity: 1;
+	}
+
+	.square {
+		height:108px;
+		width:108px;
+		border:30px solid #A8A8A8;
+		border-radius: 40px;
+	}
+
+	.square > div > i {
+		font-size: 2em;
+		padding: 34px 0 0 38px;
+	}
+
+	.square > div > p {
+		text-align: center;
+	}
+
+	.square:hover {
+	border:30px solid #fff;
+	}
+
+	p.label {
+		display: block;
+	}
+
+	#one p {
+		padding: 0;
+	}
+
+	#two p {
+		padding: 0;
+	}
+
+	#three p {
+		padding: 0;
+	}
+
+	#four p {
+		padding: 0;
+	}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-Profile Mobile-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+	#frontend {
+		margin:0 0 0 10px;
+	}
+
+	#backend {
+		margin: 90px 0 0 0;
+	}
+
+	#history {
+		margin:10px 0 0 90px;
+	}
+
+}
+
+@media (max-width: 640px) {
+
+	body {
+		width:320px;
+	}
+	
+	#header {
+		width:300px;
+		margin:0 auto;
+	}
+
+	#header > h1 {
+		font-size:4em;
+	}
+
+	#header > h2 {
+		margin-top:3px;
+		font-size:1.6em;
+	}
+
+	h2 {
+		width:302px;
+	}
+
+	#main {
+		overflow: hidden;
+	}
+
+	#main-java {
+		opacity: 1;
+	}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-Home Phone-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+	.square {
+		position:static;
+		display: block;
+		margin:20px auto;
+	}
+
+	.square:hover {
+		border:40px solid #A8A8A8;
+	}
+
+	p.label {
+		display: block;
+	}
+
+	#about {
+		margin:50px 0 0 0;
+		width:380px;
+	}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-About Phone-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+	#about {
+		margin: 30px auto 0 auto;
+		width:300px;
+		font-size: 15px;
+	}
+
+	#about-return {
+		display: inline-block;
+		opacity: 1;
+		margin:40px 0 0 5px;
+	}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-Profile Phone-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+	#profile {
+		height:880px;
+		overflow: hidden;
+		width:300px;
+		margin:0 auto;
+	}
+
+	#skills {
+		background: url('../img/profile-s.png') no-repeat center;
+		opacity: 1;
+		height:225px;
+		width: 93%;
+		margin:15px 0 0 0;
+	}
+
+	#skills > #frontend {
+		float:left;
+		margin: 0 0 0 10px;
+		opacity: 1;
+	}
+
+	#skills > #frontend > a {
+		margin: 0 0 5px 0;
+	}
+
+	#skills > #frontend > a > i {
+		font-size: 4em;
+	}
+
+	#skills > #backend {
+		float: right;
+		margin: 90px 0 0 0;
+		opacity: 1;
+	}
+
+	#skills > #frontend > ul > li, #skills > #backend > li {
+		font-size: 20px;
+	}
+
+	#profile > #history {
+		opacity: 1;
+		margin: 10px 0 0 0;
+	}
+
+	#profile > #history > .outer-details {
+		width:280px;
+		height:inherit;
+		padding:4px 10px 10px 10px;
+	}
+
+	#profile > #history > .outer-details > h2 {
+		font-size: 20px;
+	}
+
+	#profile > #history > .outer-details > .inner-details {
+		font-size: 15px;
+	}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-Portfolio Phone-_-_-_-_-_-_-_-_-_-_-_-_-*/
+	
+	#portfolio {
+		margin:20px auto 0 auto;
+		width:300px;
+	}
+
+	#portfolio > a {
+		width:100%;
+		margin:20px 0;
+	}
+
+	#portfolio > a > img {
+		width:300px;
+	}
+
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-Contact Phone-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+	input[type=submit] {
+		-webkit-appearance: none;
+	}
+
+	div#contact {
+		width:300px;
+		margin-top:50px;
+	}
+
+	input.text {
+		width: 280px;
+	}
+
+	textarea.text {
+		width: 280px;
+		min-width: 280px;
+		max-width: 280px;
+	}
+
+}
+
